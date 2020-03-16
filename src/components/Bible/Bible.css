@@ -1,0 +1,12 @@
+.btn-color {
+    width: 150px;
+    color: #00CCFF !important;
+    border-color: #00CCFF !important;
+}
+
+.colorChange {
+    width: 150px;
+    background-color:#00CCFF !important;
+    border: none !important;
+    color:#FFFFFF !important;
+}
