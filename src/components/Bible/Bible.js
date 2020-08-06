@@ -77,9 +77,9 @@ export default class Bible extends Component {
             
             <Container maxWidth="md">
             {this.state.books.length === 0?
-                <Box component="div" style={{marginTop: 100}}>
-                    <LinearProgress style={{color: "#00CCFF"}} />
-                </Box>
+                    <Box component="div" style={{marginTop: 100}}>
+                        <LinearProgress style={{color: "#00CCFF"}} />
+                    </Box>
 
             :
             <Slide direction="right" in={this.state.booksChecked} mountOnEnter unmountOnExit>

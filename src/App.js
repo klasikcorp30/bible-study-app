@@ -3,7 +3,7 @@ import './App.css';
 import MenuRouter from './components/MenuRouters/MenuRouter';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Chat from './components/Chat/Chat';
-import News from './components/News/News';
+import Sermon from './components/News/News';
 import Study from './components/Study/Study';
 import Bible from './components/Bible/Bible';
 
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Bible} />
           <Route path="/chat" component={Chat}/>
-          <Route path="/news" component={News}/>
+          <Route path="/sermons" component={Sermon}/>
           <Route path="/study" component={Study}/>
         </Switch>
     </Router>

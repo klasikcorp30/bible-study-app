@@ -14,6 +14,7 @@ export default class Chapter extends Component{
         .then( resp => this.setState({verses: resp.data, verseView: true}))
     }
 
+   
     render(){
         return  <Slide direction="left" in={this.props.checked} mountOnEnter unmountOnExit>
                 <Box>

@@ -69,10 +69,10 @@ export default function TemporaryDrawer() {
               <ListItemText primary={"Study"} />
           </ListItem>
         </Link>
-        <Link to="news" className={classes.link }>
+        <Link to="sermons" className={classes.link }>
         <ListItem button>
             <ListItemIcon><Icon>info</Icon></ListItemIcon>
-            <ListItemText primary={"News"} />
+            <ListItemText primary={"Sermons"} />
         </ListItem>
         </Link>
       </List>
