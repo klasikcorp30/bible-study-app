@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import MenuRouter from './components/MenuRouters/MenuRouter';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Chat from './components/Chat/Chat';
-import Sermon from './components/News/News';
+import Chat from './components/Chat/';
+import Sermon from './components/Sermon';
 import Study from './components/Study/Study';
 import Bible from './components/Bible/Bible';
 

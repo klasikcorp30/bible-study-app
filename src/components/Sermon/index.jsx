@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import NewsContent from './NewsContent';
+import SermonContent from './SermonContent';
 import { Grid, Container, TextField, Button, makeStyles, Modal, Fade, Backdrop } from '@material-ui/core';
 import axios from 'axios';
-import './News.css'
+import './News.scss'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -48,7 +48,7 @@ export default function News() {
                             videos.map((video) => {
                 
                                 return <Grid item xs={12} lg={4}>
-                                            <NewsContent 
+                                            <SermonContent 
                                             title={video.snippet.title} 
                                             description={video.snippet.description}
                                             image={video.snippet.thumbnails.high.url}
